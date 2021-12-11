@@ -3,9 +3,21 @@
 @tailwind utilities;
 
 .btn {
-    @apply py-2 px-4 font-semibold rounded-lg shadow-md rotate-3  hover:rotate-0 m-4;
+    @apply py-2 px-4 hover:font-semibold rounded-lg shadow-md rotate-6 hover:rotate-0 m-4;
 }
 
 .btn-primary {
-    @apply text-white bg-red-500 hover:bg-red-600;
+    @apply text-white bg-blue-500 hover:bg-blue-700 hover:text-black;
+}
+.btn-secondary {
+    @apply text-white bg-green-500 hover:bg-green-700 hover:text-black;
+}
+.btn-info {
+    @apply text-white bg-yellow-500 hover:bg-yellow-700 hover:text-black;
+}
+.btn-warning {
+    @apply text-white bg-red-500 hover:bg-red-700 hover:text-black;
+}
+.btn-success {
+    @apply text-white bg-stone-500 hover:bg-stone-700 hover:text-black;
 }
