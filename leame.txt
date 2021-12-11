@@ -1,0 +1,6 @@
+
+#Curso
+https://www.youtube.com/watch?v=0Bt2qj457Ro&t=445s
+
+#Genera paquete optimizado para produccion
+python manage.py tailwind build

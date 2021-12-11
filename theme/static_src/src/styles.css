@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply py-2 px-4 font-semibold rounded-lg shadow-md rotate-3  hover:rotate-0 m-4;
+}
+
+.btn-primary {
+    @apply text-white bg-red-500 hover:bg-red-600;
+}
